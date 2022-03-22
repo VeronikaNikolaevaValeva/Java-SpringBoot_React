@@ -1,0 +1,28 @@
+body {
+  background-color: #F3EBF6;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.logoHeader {
+  text-align: center;
+   padding-top: 40px;
+  color: #8C55AA;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.logoHeader b{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 70px;
+  padding: .4em;
+  text-decoration: none;
+  color: #333;
+  transition: .5s all;
+}
+
+
+
+
+
+

@@ -1,0 +1,134 @@
+/*---------------------HomePageNavigation*/
+.Nav {
+    font-family:'Ubuntu', sans-serif;
+    margin: 1em 20%;
+  }
+.headerNav {
+  background-color: #F3EBF6;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #e3e3e8;
+  }
+#Navlogo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    font-size: 60px;
+    margin: 0;
+    padding: .4em;
+    text-decoration: none;
+    color: #333;
+    border-right: 1px solid #e3e3e8;
+    transition: .5s all;
+  }
+#Navlogo:hover {
+    color: #fafafa;
+    background-color: #333;
+  }
+.navNav {
+    float: left;
+  }
+.navUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 2.2em 2em;
+  }
+.navli {
+    display: inline;
+   padding: 0 .4em;
+    position: relative;
+    display: inline-block;
+  }
+  
+.navli:hover .dropdowncontent {
+    padding-top: 50px;
+    display: block;}
+.dropdowncontent a {
+    color: black;
+    padding: 12px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdowncontent a:hover {background-color: #ff4629;}
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    background-color: #F3EBF6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+  }
+  .nava {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-bottom: 1.3em;
+    transition: .5s color;
+  }
+  .nava:hover {
+    border-bottom: 3px solid #333;
+  }
+  #current {
+    color: #ff4629;
+    border-bottom: 3px solid #333;
+  }
+
+  .profileButton{
+    cursor: pointer;
+      border-radius: 40px;
+      color: rgb(17, 16, 16);
+      background: linear-gradient(to right, #9b27b02d, #df40fb0e);
+      border: 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      margin-left: 500px;
+      font-size: 12px;
+      box-shadow: 0 0 20px 1px rgba(243, 243, 243, 0.04);
+  }
+  .logOutButton{
+    cursor: pointer;
+      border-radius: 40px;
+      color: rgb(17, 16, 16);
+      background: linear-gradient(to right, #9b27b02d, #df40fb0e);
+      border: 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-family: 'Ubuntu', sans-serif;
+      margin-left: 20px;
+      font-size: 10px;
+      box-shadow: 0 0 20px 1px rgba(243, 243, 243, 0.04);
+  }
+
+  .buttonText {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(170, 164, 164);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-bottom: 1.3em;
+    transition: .5s color; 
+  }
+  .remove{
+    border: none;
+    background: linear-gradient(to right, #8962e659, #c4aef785);
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    color: #202020a4;
+    margin-top: 5px;
+    width: 70%;
+    height: 40px;
+    padding-top: 5px;
+    font-size: 14px;
+   }

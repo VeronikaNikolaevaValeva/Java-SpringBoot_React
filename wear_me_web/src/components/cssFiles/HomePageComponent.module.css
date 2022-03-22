@@ -1,0 +1,99 @@
+
+.commingSoon{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding: .4em;
+    text-decoration: none;
+	color:#c1a1c7bb;
+	background: linear-gradient(to right, #c1a1c754, #ffffff60);
+    transition: .5s all;
+
+}
+.cards {
+	display: flex;
+	margin: 2.5rem;
+}
+
+.card {
+    padding-top: 15px;
+	background-color: rgba(223, 219, 219, 0.322);
+	border: 1px solid rgba(255, 255, 255, 0.479);;
+	border-radius: 5px;
+	display: flex;
+	flex: 1 0 150px;
+	flex-direction: column;
+	margin: 10px;
+	}
+	
+	.cardcontent {
+        text-shadow: 0px 0px 3px rgba(180, 179, 179, 0.527);
+        color: #1b051f;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 22px;;
+        margin-left: 40px;
+        margin-right: 40px;
+		padding: 5px;
+	}
+
+	.cardfooter {
+		display: flex;
+		padding: 10px;
+	}
+	
+	.cardimage {
+        width: 85%;
+        border: 10px solid rgba(255, 255, 255, 0.459);
+        align-self: center;
+        object-fit:cover;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+        height: 230px;
+	}
+
+	.cardlink {
+		margin: auto;
+	}
+	.addToBasket{
+		cursor: pointer;
+		border-radius: 5em;
+		color: #fff;
+		background: linear-gradient(to right, #a833bde0, #df40fb6b);
+		text-shadow: 0px 0px 3px rgba(180, 179, 179, 0.527);
+		border: 0;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-family: 'Ubuntu', sans-serif;
+		margin-left: 5%;
+		font-size: 14px;
+		box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+	}
+	.addToFavourites{
+		cursor: pointer;
+		border-radius: 5em;
+		color: #fff;
+		background: linear-gradient(to right, #a833bde0, #df40fb6b);
+		text-shadow: 0px 0px 3px rgba(180, 179, 179, 0.527);
+		border: 0;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-family: 'Ubuntu', sans-serif;
+		margin-left: 8%;
+		margin-top: 3%;
+		font-size: 14px;
+		box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+	}
+
+	.addToBasket:active{
+		background: linear-gradient(to right, #5b75e9cc, #458cdd6b);
+	}
+
+	.addToFavourites:active{
+		background: linear-gradient(to right, #5b75e9cc, #458cdd6b);
+	}

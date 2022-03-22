@@ -1,0 +1,67 @@
+version: '3'
+
+
+
+services:
+
+  docker-mysql:
+
+    image: mysql
+
+    container_name: WearmeMysql
+
+    environment:
+
+      - MYSQL_ROOT_PASSWORD=password
+
+      - MYSQL_DATABASE=wear_me
+
+      - MYSQL_PASSWORD=password
+
+    ports:
+
+      - "3306:3306"
+      
+    security_opt:
+
+      - seccomp:unconfined
+
+
+
+  app:
+
+    image: backendcontainer
+
+    container_name: WearmeBackend
+
+    ports:
+
+      - "8080:8080"
+
+    environment:
+
+      SPRING_DATASOURCE_URL: jdbc:mysql://docker-mysql:3306/wear_me
+
+      SPRING_DATASOURCE_USERNAME: "root"
+
+      SPRING_DATASOURCE_PASSWORD: "password"
+
+    build:
+
+        dockerfile: "Dockerfile"
+
+    depends_on:
+
+      - docker-mysql
+
+
+
+  frontend:
+
+    image: frontendcontainer
+
+    container_name: WearmeFrontend
+
+    ports:
+
+      - "3000:3000"

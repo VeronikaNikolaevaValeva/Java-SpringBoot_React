@@ -1,0 +1,165 @@
+.body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.mainBilling {
+    display: flex;
+}
+
+.card {
+    float: left;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 1200px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 190px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+	}
+
+.card2 {
+        float: right;
+        background-color: #FFFFFF;
+        width: 500px;
+        height: 850px;
+        margin-top: 200px;
+        margin-right: 190px;
+        margin-bottom: 100px;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        }
+
+  .mainBilling2 {
+    
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  }
+  .mainBillingAddress {
+    
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 1000px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  }
+
+  .mainBillingPayment {
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 1000px;
+    margin-bottom: 100px;
+    margin-left: 800px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+  }
+  
+  
+  .signSignIn {
+    padding-top: 40px;
+    color: #8C55AA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+  }
+  
+  .unSignIn {
+  width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  
+  form.SignIn {
+    padding-top: 10px;
+  }
+  
+  .passSignIn {
+        width: 76%;
+  color: rgb(38, 50, 56);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: 'Ubuntu', sans-serif;
+  }
+  
+  
+  .un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+  }
+
+
+    .submitBillingAddress {
+      cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #9C27B0, #E040FB);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 37%;
+        margin-top: 20px;
+        font-size: 15px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+      }
+
+  .placeholder{
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #bc9ac2;
+    font-size: 15px;
+    text-align: left;
+    padding-left: 60px;
+    padding-top: 15px;
+  }
+  
+  a.SignIn {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+  }
+  button.SignIn {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+  }
+  
+  @media (max-width: 350px) {
+    .mainSignIn {
+        border-radius: 0px;
+    }
+  }
