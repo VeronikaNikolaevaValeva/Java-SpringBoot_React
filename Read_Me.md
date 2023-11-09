@@ -17,7 +17,7 @@ Data Management: Utilizes CRUD operations for efficient management of data.
 
 Responsive UI: Implements a responsive and user-friendly interface using React components.
 
-Technologies Used
+## Technologies Used
 Java: The backend language for robust server-side development.
 
 Spring Boot: A framework for simplifying the development of Java applications.
